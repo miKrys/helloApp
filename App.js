@@ -79,6 +79,13 @@ export default class App extends Component {
                 }
                 title={'I am delayed'}
               /> */}
+
+                <HelloModule
+                  src={
+                    'https://timedotcom.files.wordpress.com/2019/03/kitten-report.jpg'
+                  }
+                  style={{width: 100, height: 100}}
+                />
                 <Text style={styles.sectionTitle}>Step One</Text>
                 <Text style={styles.sectionDescription}>
                   Edit <Text style={styles.highlight}>App.js</Text> to change
